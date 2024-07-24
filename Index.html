@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex Box in CSS</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <a href="#" class="top">&#x1F845;</a>
+        <script>
+            const toTop = document.querySelector(".top");
+
+            window.addEventListener("scroll", () => {
+                if (window.pageYOffset > 300) {
+                    toTop.classList.add("active");
+                } else {
+                    toTop.classList.remove("active");
+                }
+            })
+        </script>
+
+        <div class="flex-container">
+                <div class="flex-box">
+                    Flex Box One
+                </div>
+                <div class="flex-box">
+                    Flex Box Two
+                </div>
+                <div class="flex-box">
+                    Flex Box Three
+                </div>
+                <div class="flex-box">
+                    Flex Box Four
+                </div>
+                <div class="flex-box">
+                    Flex Box Five
+                </div>
+                <div class="flex-box">
+                    Flex Box Six
+                </div>
+                <div class="flex-box">
+                    Flex Box Seven
+                </div>
+                <div class="flex-box">
+                    Flex Box Eight
+                </div>
+                <div class="flex-box">
+                    Flex Box Nine
+                </div>
+                <div class="flex-box">
+                    Flex Box Ten
+                </div>
+                <div class="flex-box">
+                    Flex Box Eleven
+                </div>
+                <div class="flex-box">
+                    Flex Box Twelve
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
